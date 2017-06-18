@@ -50,7 +50,6 @@ class Json
     {
         $request     = Request::instance();
         $isStart=$request->param('json_trace_start');
-        var_dump($isStart);
         $contentType = $response->getHeader('Content-Type');
         $accept      = $request->header('accept');
         if(!$isStart){
