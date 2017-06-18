@@ -35,7 +35,7 @@ class Json
     // 实例化并传入参数
     public function __construct(array $config = [])
     {
-        $this->config['trace_file'] = THINK_PATH . './tpl/json_trace.tpl';
+        $this->config['trace_file'] = dirname(__FILE__).'.\tpl\json_trace.tpl';
         $this->config               = array_merge($this->config, $config);
     }
 
