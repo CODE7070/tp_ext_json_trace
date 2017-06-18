@@ -25,3 +25,7 @@ composer require c7/tp_ext_json_trace
 
 ## 3、enjoy
 
+在需要被调试的URL后面加上参数`json_trace_start`，比如：
+
+`http://127.0.0.1/index.php/app/client/hasphone/phone/xxx/json_trace_start/1`
+
