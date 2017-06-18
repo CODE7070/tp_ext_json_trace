@@ -1,0 +1,19 @@
+{
+    "name": "c7/tp_ext_json_trace",
+    "description": "a extension of json trace for thinkphp.",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "cxm",
+            "email": "707039333@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "think\\debug\\": "src/"
+        }
+    }
+
+}
